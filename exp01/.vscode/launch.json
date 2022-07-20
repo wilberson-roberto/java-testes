@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AtivJava10",
+            "request": "launch",
+            "mainClass": "AtivJava10",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava09",
+            "request": "launch",
+            "mainClass": "AtivJava09",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava08",
+            "request": "launch",
+            "mainClass": "AtivJava08",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava07",
+            "request": "launch",
+            "mainClass": "AtivJava07",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava06",
+            "request": "launch",
+            "mainClass": "AtivJava06",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava05",
+            "request": "launch",
+            "mainClass": "AtivJava05",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteJava01",
+            "request": "launch",
+            "mainClass": "TesteJava01",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava04",
+            "request": "launch",
+            "mainClass": "AtivJava04",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
             "name": "Launch AtivJava03",
             "request": "launch",
             "mainClass": "AtivJava03",

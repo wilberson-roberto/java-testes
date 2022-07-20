@@ -21,6 +21,8 @@ public class AtivJava03 {
         double totalFalta = (totalPrestacoes - qtdPago) * valorPrestacao;
 
         System.out.printf("Wilberson Pagou R$ %.2f referente a %d parcelas e falta R$ %.2f em parcelas a pagar", totalPago, qtdPago, totalFalta);
+
+        entrada.close();
     }
 
 }

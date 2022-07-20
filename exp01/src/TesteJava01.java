@@ -37,5 +37,34 @@ public class TesteJava01 {
     // %s = texto
     // %n = quebra de linha
 
-    
+    /*
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.println("Digite sua idade:");
+        int idade = entrada.nextInt();
+
+        if (idade < 12) {
+            System.out.println("Você é uma criança");
+        } else if (idade > 12 && idade <= 18) {
+            System.out.println("Você é adolescente");
+        } else if (idade > 18 && idade <= 59) {
+            System.out.println("Você é adulto");
+        } else if (idade >= 60) {
+            System.out.println("Você é idoso");
+        }
+
+        entrada.close();
+    } */
+
+    public static void main(String[] args) { // Cria uma 
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite um número");
+        int valor = entrada.nextInt();
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(valor + " x " + i + " = " + (valor * i));
+        }
+    }
 }
