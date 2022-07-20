@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AtivJava03",
+            "request": "launch",
+            "mainClass": "AtivJava03",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava02",
+            "request": "launch",
+            "mainClass": "AtivJava02",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava01",
+            "request": "launch",
+            "mainClass": "AtivJava01",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Atividade002",
+            "request": "launch",
+            "mainClass": "Atividade002",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Atividade001",
+            "request": "launch",
+            "mainClass": "Atividade001",
+            "projectName": "exp01_938ec94f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test001",
+            "request": "launch",
+            "mainClass": "Test001",
+            "projectName": "exp01_938ec94f"
+        }
+    ]
+}
