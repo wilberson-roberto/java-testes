@@ -17,7 +17,7 @@ public class AtivJava05 {
         int minUltrapassado = entrada.nextInt();
 
         int totalMinutos = minPlano + minUltrapassado;
-        double totalPagar = minUltrapassado * franquiaExtra + minPlano;
+        double totalPagar = (minUltrapassado * franquiaExtra) + valorPlano;
 
         System.out.printf("O cliente consumiu %d minutos, ultrapassando a franquia de %d minutos, o total a ser pago será de R$ %.2f", totalMinutos, minPlano, totalPagar);
 

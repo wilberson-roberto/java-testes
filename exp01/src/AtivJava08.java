@@ -9,7 +9,7 @@ public class AtivJava08 {
 
         int valor = 0, dentro = 0, fora = 0;
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println("Digite um valor qualquer");
             valor = entrada.nextInt();
 
@@ -22,6 +22,8 @@ public class AtivJava08 {
 
         System.out.println("Dentro do intervalo 10 - 20:  " + dentro);
         System.out.println("Fora do intervalo 10 - 20:  " + fora);
+
+        entrada.close();
     }
 }
 

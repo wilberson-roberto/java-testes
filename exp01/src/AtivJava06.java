@@ -32,11 +32,11 @@ public class AtivJava06 {
         double totalPagarLuxoAcima200 = kmPercorrido * 0.25 + diasAluguel * 150.00;
 
         if (carroTipo == 1 && kmPercorrido <= 100) {
-            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + "km. O total a pagar é de R$ " + totalPagarPopularAte100);
+            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + " km. O total a pagar é de R$ " + totalPagarPopularAte100);
         } else if (carroTipo == 1 && kmPercorrido > 100) {
-            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + "km. O total a pagar é de R$ " + totalPagarPopularAcima100);
+            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + " km. O total a pagar é de R$ " + totalPagarPopularAcima100);
         } else if (carroTipo == 2 && kmPercorrido <= 200) {
-            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + "km. O total a pagar é de R$ " + totalPagarLuxoAte200);
+            System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + " km. O total a pagar é de R$ " + totalPagarLuxoAte200);
         } else if (carroTipo == 2 && kmPercorrido > 200) {
             System.out.println("O veículo escolhido foi " + carroTipo + ", foi alugado por " + diasAluguel + " dias e percorreu por " + kmPercorrido + "km. O total a pagar é de R$ " + totalPagarLuxoAcima200);
         }

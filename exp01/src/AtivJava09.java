@@ -4,9 +4,9 @@ public class AtivJava09 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        int valor = 0, cont = 0, acumulador = 0;
+        int valor = 0, cont = 1, acumulador = 0;
 
-        while (cont <= 10) {
+        while (cont <= 5) {
             
             System.out.println("Digite qualquer valor");
             valor = entrada.nextInt();
@@ -18,5 +18,7 @@ public class AtivJava09 {
         }
 
         System.out.println("Soma dos valores menores que 40 " + acumulador);
+
+        entrada.close();
     }
 }
