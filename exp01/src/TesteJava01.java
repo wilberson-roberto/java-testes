@@ -166,7 +166,7 @@ public class TesteJava01 {
         //                 break;
         //         }
         //     }
-        //     entrada.close();
+        //     entrada.close(); a
         // }a
 }
 
