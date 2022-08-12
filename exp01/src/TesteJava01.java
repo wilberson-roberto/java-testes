@@ -121,53 +121,53 @@ public class TesteJava01 {
         //     System.out.println(valor);
         // }
 
-        public static void main(String[] args) { // Conversor de moeda aprimorado
-            Scanner entrada = new Scanner(System.in);
+        // public static void main(String[] args) { // Conversor de moeda aprimorado
+        //     Scanner entrada = new Scanner(System.in);
 
-            int menu = 1;
-            double valor = 0.0f;
+        //     int menu = 1;
+        //     double valor = 0.0f;
 
-            while (menu > 0) {
-                if (menu == 1) {
-                    System.out.println("------------------------------------------------------------------------------------------");
-                    System.out.println("Qual valor deseja converter?");
-                    System.out.println("------------------------------------------------------------------------------------------");
-                    valor = entrada.nextDouble();
-                }
+        //     while (menu > 0) {
+        //         if (menu == 1) {
+        //             System.out.println("------------------------------------------------------------------------------------------");
+        //             System.out.println("Qual valor deseja converter?");
+        //             System.out.println("------------------------------------------------------------------------------------------");
+        //             valor = entrada.nextDouble();
+        //         }
 
-                do {
-                    System.out.println("------------------------------------------------------------------------------------------");
-                    System.out.println("1 - Entrar com novo valor a ser convertido");
-                    System.out.println("------------------------------------------------------------------------------------------");
-                    System.out.println("Para converter o valor digitado:");
-                    System.out.println("2 - Converter para Dólar");
-                    System.out.println("3 - Converter para Euro");
-                    System.out.println("4 - Converter para Yene");
-                    menu = entrada.nextInt();
-                } while (menu < 0 && menu > 3);
+        //         do {
+        //             System.out.println("------------------------------------------------------------------------------------------");
+        //             System.out.println("1 - Entrar com novo valor a ser convertido");
+        //             System.out.println("------------------------------------------------------------------------------------------");
+        //             System.out.println("Para converter o valor digitado:");
+        //             System.out.println("2 - Converter para Dólar");
+        //             System.out.println("3 - Converter para Euro");
+        //             System.out.println("4 - Converter para Yene");
+        //             menu = entrada.nextInt();
+        //         } while (menu < 0 && menu > 3);
 
-                switch (menu) {
-                    case 2:
-                        System.out.println("------------------------------------------------------------------------------------------");
-                        double conversorDolar = valor / 5.4082;
-                        System.out.printf("R$ %.2f vale USD$ %.2f %n", valor, conversorDolar);
-                        break;
-                    case 3:
-                        System.out.println("------------------------------------------------------------------------------------------");
-                        double conversorEur = valor / 5.4548;
-                        System.out.printf("R$ %.2f vale EUR$ %.2f %n", valor, conversorEur);
-                        break;
-                    case 4:
-                        System.out.println("------------------------------------------------------------------------------------------");
-                        double conversorJpy = valor / 0.03905;
-                        System.out.printf("R$ %.2f vale JPY$ %.2f %n", valor, conversorJpy);
-                        break;
-                    default:
-                        break;
-                }
-            }
-            entrada.close();
-        }
+        //         switch (menu) {
+        //             case 2:
+        //                 System.out.println("------------------------------------------------------------------------------------------");
+        //                 double conversorDolar = valor / 5.4082;
+        //                 System.out.printf("R$ %.2f vale USD$ %.2f %n", valor, conversorDolar);
+        //                 break;
+        //             case 3:
+        //                 System.out.println("------------------------------------------------------------------------------------------");
+        //                 double conversorEur = valor / 5.4548;
+        //                 System.out.printf("R$ %.2f vale EUR$ %.2f %n", valor, conversorEur);
+        //                 break;
+        //             case 4:
+        //                 System.out.println("------------------------------------------------------------------------------------------");
+        //                 double conversorJpy = valor / 0.03905;
+        //                 System.out.printf("R$ %.2f vale JPY$ %.2f %n", valor, conversorJpy);
+        //                 break;
+        //             default:
+        //                 break;
+        //         }
+        //     }
+        //     entrada.close();
+        // }
 }
 
 
