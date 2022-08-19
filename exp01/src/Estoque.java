@@ -1,15 +1,23 @@
 public class Estoque {
-    private String nome = "";
-    private double preco = 0;
-    private int quantidade = 0;
+    double preco;
+    private int quantidade;
 
-    public void Total_Estoque() {
-
+    public void setPreco(double x) {
+        this.preco = x;
     }
-    public void Add_Produto() {
 
+    public double getPreco() {
+        return preco;
     }
-    public void Remover_Produto() {
 
+    public double Total_Prod() {
+        double totalEstoque = preco * quantidade;
+        return totalEstoque;
+    }
+    public void Add_Produto(int qtd) {
+        quantidade += qtd;
+    }
+    public void Remover_Produto(int qtd) {
+        quantidade -= qtd;
     }
 }

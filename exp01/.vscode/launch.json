@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AtivJava06",
+            "request": "launch",
+            "mainClass": "AtivJava06",
+            "projectName": "exp01_d31b44f9"
+        },
+        {
+            "type": "java",
+            "name": "Launch AtivJava07",
+            "request": "launch",
+            "mainClass": "AtivJava07",
+            "projectName": "exp01_d31b44f9"
+        },
+        {
+            "type": "java",
+            "name": "Launch principal",
+            "request": "launch",
+            "mainClass": "principal",
+            "projectName": "exp01_d31b44f9"
+        },
+        {
+            "type": "java",
             "name": "Launch AtivJava10",
             "request": "launch",
             "mainClass": "AtivJava10",
