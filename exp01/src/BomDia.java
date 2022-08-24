@@ -1,3 +1,6 @@
+// - Criar uma classe com um método que receba como parâmetro
+// um nome e mostre na tela "Bom dia, nome digitado".
+
 public class BomDia {
     private String frase;
 
